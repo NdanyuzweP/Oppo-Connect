@@ -1,0 +1,446 @@
+/* Login and Sign up codes*/
+
+body {
+   font-family: 'Poltawski Nowy', serif;
+   background-color: #cfcfcf;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+.elementt {
+   background-image: url(home.webp);
+   background-size: cover;
+   background-position: center;
+
+}
+
+.container-login {
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+
+.container-signup {
+   background-color: #fff;
+   width: 500px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+button {
+   width:25%;
+   padding: 8px;
+   background-color: rgb(47, 65, 65);  
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #858c94;
+}
+
+a {
+   color: #285c94;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+
+
+
+/* Home page */
+
+
+body {
+   font-family: 'Poltawski Nowy', serif;
+   color: #3e5555;  
+   /*background-image: url('home.webp'); /* Replace 'your-image.jpg' with the path to your background image */
+   background-size: cover;
+   background-position: center;
+   margin: 10px;
+}
+.navigation {
+   position: fixed;
+   top: 20px;
+   right: 40px;
+   font-size: 19px;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.navigation ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.navigation ul li {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.navigation ul li:last-child {
+   margin-right: 0;
+}
+
+.navigation ul li a {
+   text-decoration: none;
+   color: #326161;
+}
+
+.navigation ul li a:hover {
+   text-decoration: underline;
+}
+
+.conten {
+   font-weight: bold;
+   font-size: 35px;
+   padding-top: 0px;
+   color: #284646;
+   text-shadow: 
+        -1px -1px 0 #a8b4c4,  
+         1px -1px 0 #a8b4c4,
+        -1px  1px 0 #a8b4c4,
+         1px  1px 0 #a8b4c4;
+}
+
+.content {
+   font-weight: bold;
+   font-size: 25px;
+   padding-top: 0px;
+   color: #284646;
+}
+
+
+
+/* Find JOb */
+
+.content-find {
+   font-size: 30px;
+   padding-bottom: 1px;
+}
+
+.job-cards {
+   display: flex;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 20px;
+   align-items: flex-end;
+}
+
+
+.job-card {
+   background-color: #ddf2fa;
+   border-radius: 5px;
+   font-size: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+}
+
+.job-card h3 {
+   margin-top: 0;
+}
+
+.job-card p:last-child {
+   margin-bottom: 0;
+}
+
+.job-card a {
+   display: block;
+   margin-top: 10px;
+   text-decoration: none;
+   color: #286cc5;
+}
+
+.job-card a:hover {
+   text-decoration: underline;
+}
+
+
+
+
+/* comment */
+
+/* Unique CSS styles for Explore Workers page */
+.explore-workers-navigation {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.explore-workers-navigation ul {
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.explore-workers-navigation ul li {
+   margin-right: 10px;
+}
+
+.explore-workers-navigation ul li:last-child {
+   margin-right: 0;
+}
+
+.explore-workers-navigation ul li a {
+   text-decoration: none;
+   color: #3e5555;
+}
+
+.explore-workers-navigation ul li a:hover {
+   text-decoration: underline;
+}
+
+.search-bar {
+   display: flex;
+   align-items: center;
+}
+
+.search-bar input[type="text"] {
+   padding: 8px;
+   margin-right: 5px;
+}
+
+.search-bar button {
+   padding: 8px 15px;
+   background-color: #3e5555;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.search-bar button:hover {
+   background-color: #3e5555;
+}
+
+.explore-workers-content {
+   width: auto;
+   padding-top: 200px;
+   padding-left: 50px;
+}
+
+.explore-workers-profile {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.explore-workers-profile-picture img {
+   width: 150px;
+   height: auto;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.explore-workers-profile-details {
+   flex: 1;
+}
+
+.explore-workers-button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #3e5555;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.explore-workers-buttom {
+   align-items: center;
+   padding: 10px 20px;
+   background-color: #3e5555;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+.explore-workers-button:hover {
+   background-color: #3e5555;
+}
+
+
+
+/* Existing CSS styles */
+
+
+/* Specific CSS styles for My Profile page */
+.myprofile-navigation {
+   position: fixed;
+   top: 0;
+   right: 0;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 10px;
+}
+
+.myprofile-navigation ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.myprofile-navigation ul li {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.myprofile-navigation ul li:last-child {
+   margin-right: 0;
+}
+
+.myprofile-navigation ul li a {
+   text-decoration: none;
+   color: #3e5555;
+   font-weight: bold;
+}
+
+.myprofile-navigation ul li a:hover {
+   text-decoration: underline;
+}
+
+.myprofile-content {
+   width: auto;
+   display: block;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.profile-details {
+   display: flex;
+   align-items: center;
+   padding: 40px;
+}
+
+.profile-details .profile-picture img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.profile-details .profile-info p {
+   margin: 0 0 10px;
+}
+
+.profile-details .profile-info button {
+   background: none;
+   border: none;
+   color: #3e5555;
+   cursor: pointer;
+}
+
+.profile-details .profile-info button:hover {
+   text-decoration: underline;
+}
+
+.logout-button {
+   width: 70px;
+   padding-left: 20px;
+   padding-right: 60px;    
+}
+
+
+/* About Oppoconnect */
+
+/* Specific CSS styles for About Us page */
+
+/* Specific CSS styles for About Us page */
+.about-navigation {
+   position: fixed;
+   top: 0;
+   right: 0;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 10px;
+   font-family: 'Open Sans', sans-serif; /* Use the specified font */
+}
+
+.about-navigation ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.about-navigation ul li {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.about-navigation ul li:last-child {
+   margin-right: 0;
+}
+
+.about-navigation ul li a {
+   text-decoration: none;
+   color: #3e5555;
+   font-weight: bold; /* Make the links bold */
+}
+
+.about-navigation ul li a:hover {
+   text-decoration: underline;
+}
+
+.about-content {
+   width: auto;
+   display: grid;
+   font-size: 17px;
+   text-align: center;
+   color: #464d55;
+   padding-top: 550px;
+   font-family: 'Open Sans', sans-serif; /* Use the specified font */
+}
+
+.project-section,
+.team-section,
+.mission-vision-section {
+   margin-bottom: 40px;
+}
+
+.project-section h3,
+.team-section h3,
+.mission-vision-section h3 {
+   margin-top: 0;
+   color: #3e4a4e;
+}
+
+.project-section p,
+.team-section ul,
+.mission-vision-section p {
+   color: #4b5158;
+}
+
+.me2 {
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
